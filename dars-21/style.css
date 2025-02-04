@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+
+header {
+  background: #f3d7b7;
+  padding: 27px 0;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.coffee {
+  background: #f3d7b7;
+  padding: 100px 0;
+  height: 570px;
+}
+.coffee .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 216px;
+}
+.coffee-text {
+  max-width: 464px;
+}
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 20px 0;
+}
+.btn{
+    padding: 16px 24px;
+    border-radius: 90px;
+    border: none;
+    background-color: #0A775F;
+    color: white;
+}
+
+.coffee-img{
+    max-width: 710px;
+    position: relative;
+}
+
+.katta{
+    width: 100%;
+}
+.kichik{
+    position: absolute;
+    top: -100px;
+    left: -100px;    
+}
+
+.our {
+  font-size: 50px;
+  margin-top: 108px;
+  text-align: center;
+}
+
+.kopi {
+  display: flex;
+}
+
+.healthcare {
+  display: flex;
+  gap: 130px;
+  align-items: center;
+  margin-top: 42px;
+  margin-left: 163px;
+}
+
+.heathcare-img {
+  animation: img 5s infinite;
+
+}
+
+@keyframes img {
+  
+    25% {
+       border-radius:50%;
+       transform: scale(1.5);
+       
+   }
+    50% {
+       
+       transform: scale(1.3);
+   } 
+}
+
+.dan {
+  font-size: 48px;
+}
+
+.why {
+  background-color: #C99B67;
+  width: 1519px;
+height: 703px;
+}
+.why-text {
+  text-align: center;
+  font-size: 50px;
+}
+
+.why-p {
+  
+  text-align: center;
+  position: absolute;
+}
+
+
+
+.images {
+  display: flex;
+  gap: 11px;
+  
+  position: relative;
+  right: 57px;
+  bottom: -190px;
+  
+
+}
+.c {
+position: relative;
+top: -80px;
+right: -100px;
+width: 144.437px;
+height: 144px;
+}
+
+.best {
+  margin-top: 95px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: cent;
+  
+}
+
+.how {
+  background-color: #0A775F;
+  width: 1519px;
+height: 876px;
+}
+
+.ho {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+.card {
+  width: 435px;
+  height: 420px;
+  background-color: white;
+  margin-left: 56px;
+  padding-left: 27px;
+}
+
+.cardlar {
+  display: flex;
+}
+
+.h1 {
+  text-align: end;
+  color: gray;
+  margin-bottom: 47px;
+  margin-top: 21px;
+  
+}
+
+
+.how-btn {
+  border-radius: 100px;
+  background: #C99B67;
+  width: 198.514px;
+  height: 54.087px;
+  border:none;
+  padding: 16px 24px;
+  margin-left: 660px;
+  margin-top: 57px;
+}
+
+
+.end {
+   background: #F3D7B7;
+   width: 1519px;
+   height: 160px;
+   
+}
+
+.v {
+  display: flex;
+  padding-top: 62px;
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.v ul li {
+  
+  list-style: none;
+}
+.v ul li a {
+  text-decoration: none;
+  
+}
+
+.ul {
+  display: flex;
+  gap: 30px;
+  
+}
+
+.facebook {
+  width: 30px;
+  height: 30px;
+}
+.twitter {
+  width: 30px;
+  height: 30px;
+}
+.instagram {
+  width: 30px;
+  height: 30px;
+}
+
+.cof {
+  background-color: #F3D7B7;
+}
